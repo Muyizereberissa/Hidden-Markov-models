@@ -8,8 +8,6 @@ Smartphone accelerometer and gyroscope recordings (Sensor Logger) for four activ
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# If raw exports live outside the repo, update SOURCE_DIR in scripts/prepare_dataset.py, then:
-python3 scripts/prepare_dataset.py
 
 PYTHONPATH=src python3 src/pipeline.py
 python3 scripts/build_notebook.py
