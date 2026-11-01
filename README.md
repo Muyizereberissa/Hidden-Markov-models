@@ -1,4 +1,4 @@
-# Hidden Markov Models — Human Activity Recognition
+# Hidden Markov Models - Human Activity Recognition
 
 Smartphone accelerometer and gyroscope recordings (Sensor Logger) for four activities: **Standing**, **Walking**, **Jumping**, and **Still**.
 
